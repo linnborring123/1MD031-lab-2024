@@ -1,1 +1,119 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Page title shown in window title</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    <header>
+        <h1>Welcome to BurgerOnline</h1>
+    </header>
+    <section>
+         <h3>Select burger</h3>
+         <p>This is where you execute burger selection</p>
+         <div style="display: inline-block">
+            <h4> Fire burger</h4>
+            <img src="https://img.freepik.com/premium-photo/delicious-burger-with-fire-flames-image_681002-583.jpg" width="150">
+            <ul>
+                <li>
+                    750 kCal
+                </li>
+                <li>
+                    Contains gluten
+                </li>
+                <li>
+                    Contains lactose
+                </li>
+            </ul>
+         </div>
+         <div style="display: inline-block">
+            <h4>Turkey burger </h4>
+            <img src="https://www.herwholesomekitchen.com/wp-content/uploads/2021/04/bestturkeyburger-1-2.jpg" width =150>
+            <ul>
+                <li>
+                    Contains turkey
+                </li>
+                <li>
+                    1799 kCal
+                </li>
+                <li>
+                    Contains gluten
+                </li>
+            </ul>
+         </div>
+         <div style="display: inline-block">
+            <h4>Double Cheese burger</h4>
+            <img src="https://zenaskitchen.com/wp-content/uploads/2022/08/chilli-cheese-burger-scaled.jpg" width="150">
+            <ul>
+                <li>
+                    355 kCal
+                </li>
+                <li>
+                    Contains Cheese
+                </li>
+                <li>
+                    Cintains lactose
+                </li>
+            </ul>
+         </div>
+
+    </section>
+
+    <section>
+        <h3>Customer information</h3>
+        <p>This is where you provide necessary information</p>
+        <h4>Delivery information</h4>
+        <p> 
+            <label for="Full name">Full name</label><br>
+            <input type="text" id="Full name" name="fn" required="required" placeholder="First- and last name">
+        </p>
+        <p>
+            <label for="E-mail">E-mail</label><br>
+            <input type="text" id="E-mail" name="ln" placeholder="E-mail address">
+        </p>
+        <p>
+            <label for="Street">Street</label><br>
+            <input type="text" id="Street" name="em" required="required" placeholder="Street address">
+        </p>
+        <p>
+             <label for="House">House</label><br>
+            <input type="number" id="House" name="em" required="required" placeholder="House number">
+        </p>
+        <p>
+          <label for="Pay">Payment options</label><br>
+           <select id="Pay" name="rcp">
+             <option selected="selected">Credit card</option>
+             <option>Cash</option>
+             <option>Bank account</option>
+          </select>
+        </p>
+        <p>Gender</p>
+        <form>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="noanswer" name="gender" value="noanswer">
+            <label for="noanswer">Do not wish to provide</label>
+        </form>
+
+    
+        <button type="submit">
+           <img src="https://www.creativefabrica.com/wp-content/uploads/2019/12/20/shopping-cart-with-check-mark-icon-Graphics-1.jpg" width="40">
+            Place order
+        </button>
+
+    
+    
+       
+
+    </section>
+    <hr>
+    <footer>
+        <p>&copy; Hypothetical burgers inc.</p>
+
+    </footer>
+   </body>
+</html>
