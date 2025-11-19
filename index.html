@@ -3,63 +3,72 @@
    <head>
        <title>Page title shown in window title</title>
        <meta charset="utf-8"/>
+       <link rel="stylesheet" href="css/style.css">
+
    </head>
    <body>
     <header>
         <h1>Welcome to BurgerOnline</h1>
+        <img id="header-image" src="https://assets-global.website-files.com/62dbbadeee175fc7ff8c81d7/6558b060ea42c4fd0794cfa5_basta-urban-italian-group-umea.jpg">
     </header>
-    <section>
+
+    <section id="burgers">
          <h3>Select burger</h3>
          <p>This is where you execute burger selection</p>
-         <div style="display: inline-block">
-            <h4> Fire burger</h4>
-            <img src="https://img.freepik.com/premium-photo/delicious-burger-with-fire-flames-image_681002-583.jpg" width="150">
-            <ul>
-                <li>
+         <div class="burger-grid">
+            <div class="burger">
+                 <h4> Fire burger</h4>
+                  <img src="https://img.freepik.com/premium-photo/delicious-burger-with-fire-flames-image_681002-583.jpg" width="150">
+                 <ul>
+                 <li>
                     750 kCal
-                </li>
-                <li>
-                    Contains gluten
-                </li>
-                <li>
-                    Contains lactose
-                </li>
-            </ul>
-         </div>
-         <div style="display: inline-block">
-            <h4>Turkey burger </h4>
-            <img src="https://www.herwholesomekitchen.com/wp-content/uploads/2021/04/bestturkeyburger-1-2.jpg" width =150>
-            <ul>
-                <li>
-                    Contains turkey
-                </li>
-                <li>
+                 </li>
+                 <li>
+                    Contains
+                    <span class= "ingridient"> gluten</span> 
+                 </li>
+                 <li>
+                    Contains
+                    <span class= "ingridient"> lactose</span>
+                 </li>
+                 </ul>
+            </div>
+              <div class="burger">
+                  <h4>Turkey burger </h4>
+                  <img src="https://www.herwholesomekitchen.com/wp-content/uploads/2021/04/bestturkeyburger-1-2.jpg" width =150>
+                  <ul>
+                 <li>Contains 
+                    <span class= "ingridient">milk</span>
+                 </li>
+                 <li>
                     1799 kCal
-                </li>
-                <li>
-                    Contains gluten
-                </li>
-            </ul>
-         </div>
-         <div style="display: inline-block">
-            <h4>Double Cheese burger</h4>
-            <img src="https://zenaskitchen.com/wp-content/uploads/2022/08/chilli-cheese-burger-scaled.jpg" width="150">
-            <ul>
+                 </li>
+                 <li>Contains
+                    <span class= "ingridient"> gluten</span>
+                 </li>
+                  </ul>
+             </div>
+            <div class="burger">
+             <h4>Double Cheese burger</h4>
+             <img src="https://zenaskitchen.com/wp-content/uploads/2022/08/chilli-cheese-burger-scaled.jpg" width="150">
+             <ul>
                 <li>
                     355 kCal
                 </li>
                 <li>
-                    Contains Cheese
+                    Contains 
+                    <span class= "ingridient">Cheese</span>
                 </li>
                 <li>
-                    Cintains lactose
+                    Contains
+                    <span class= "ingridient"> lactose</span>
                 </li>
-            </ul>
-         </div>
-
+             </ul>
+             </div>
+        </div>
     </section>
 
-    <section>
+    <section id="order">
         <h3>Customer information</h3>
         <p>This is where you provide necessary information</p>
         <h4>Delivery information</h4>
@@ -105,9 +114,6 @@
             Place order
         </button>
 
-    
-    
-       
 
     </section>
     <hr>
